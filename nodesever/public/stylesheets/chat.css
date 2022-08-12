@@ -1,0 +1,96 @@
+.chatIcon{
+    width:60px;
+    height: 60px;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 36px;
+    position: absolute;
+    right: 0;
+}
+.chatIcon img{
+    width :100%;
+    height: 100%;
+}
+.chatContent{
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    position: absolute;
+    right: 80px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.contentdiv:nth-child(1n+0){
+  
+    height: fit-content;
+}
+.contentdiv:nth-child(1n+0) img{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+.contentdiv:nth-child(1n+0) .chatContent-content{
+    color: white;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.contentdiv:nth-child(2n+0){
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.contentdiv:nth-child(2n+0) img{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-left: 150px;
+}
+.contentdiv:nth-child(2n+0) .chatContent-content{
+    color: white;
+    margin-right: 0px;
+    margin-top: -30px;
+}
+/* chat file*/
+
+.submit-content{
+    width: 100%;
+    height: 50px;
+    margin-top: 5%;
+    background-color: red;
+}
+#input-chat{
+    width: 70%;
+}
+#submit-button{
+    height: 40px;
+    margin-left: 70.5%;
+    margin-top: -115px;
+}
+.value-input{
+    margin-top: 5%;
+}
+.post-chat{
+    width: fit-content;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    background-color: cyan;
+    padding: 6px;
+    text-align: center;
+    border-radius: 10%;
+    
+    
+}
+.content-post-chat{
+    width: 100%;
+    height: fit-content;
+    background-color: red;
+    
+}
+.content-post-chat img {
+    width: 50px;
+    height: 50px;
+    margin-left: 1100px;
+    border-radius: 50%;
+    background-color: grey;
+    float: right;
+}

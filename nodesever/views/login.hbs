@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+    <body>
+        <div class="login">
+            <div class="form">
+                <img src="/images/shop.png" alt="" srcset="">
+                <h5>Đồng hành cùng mọi nẽo đường</h5>
+                <form action="http://localhost:3000/login" method="post">
+                    <input type="text" placeholder="Email" name="email">
+                    <input type="text" placeholder="Password" name="password">
+                    <h6 id="erro">{{Erro}}</h6>
+                    <h6><a>Foget Password?</a></h6>
+                    <input type="submit" value="Đăng nhập" class="submit">
+                </form>
+                <a href="http://localhost:3000/signup"><input type="submit" value="Tạo Tài Khoản" class="submit1"></a>
+                <hr/>
+                <div class="bottom-h4">
+                    <h4>
+                        Hoặc đăng nhập bằng
+                    </h4>
+                    <div class="loginsubmit">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt="" srcset="" id="fb-img">
+                        <img src="https://img.cppng.com/download/2020-06/67060-play-photos-search-google-account-png-file-hd.png" alt="" srcset="" id="google-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  @font-face{
+      font-family: fontSmooch;
+      src: url('../font/Smooch-Regular.ttf');
+  }
+  .login {
+    width: 320px;
+    height: 515px;
+    border: 1px solid #CCC;
+    background: url(https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 20px;
+  }
+  .login .form {
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    color: #8024AB;
+  }
+  .login .form img {
+    width: 75px;
+    height: 75px;
+    margin-left: 35%;
+  
+  }
+  .login .form h5 {
+    color: '#8024AB';
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: -15px;
+    font-style: italic;
+    font-family:'fontSmooch';
+  }
+  .login .form input {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background: #80A3D5;
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: '#80F6FF' ;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .login .form input:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+      color: #DDD;
+  }
+  .login .form input.submit {
+    background: #80A3D5;
+    color: #444;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  h6{
+      text-align: right;
+  }
+  .login .form input.submit1 {
+    background: #80A3D5;
+    color: #444;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  .bottom-h4 h4{
+      text-align: center;
+  }
+.loginsubmit{
+      width: 90%;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+}
+#fb-img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 26.5%;
+}
+#google-img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 5%;
+}
+#erro{
+  font-size: 13px;
+  margin-top: 3px;
+  margin-bottom: -18px;
+  color: red;
+  text-align: left;
+}
+#signin{
+  margin-top: 30px;
+}
